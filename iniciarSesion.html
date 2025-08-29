@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vortal Hermesoft 2.1</title>
+  <link rel="stylesheet" href="styleIniciar.css">
+</head>
+
+<body>
+  <div class="login-box">
+    <div class="header"></div>
+    <p class="message">
+      Estimado usuario, el sistema de autenticación ha cambiado, ahora debes hacer uso del formulario a continuación.
+    </p>
+
+    <form class="login-form" id="loginForm">
+      <div class="form-row-group">
+        <div class="form-row">
+          <label for="username">Usuario</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="form-row">
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button type="button" class="btn btn-remember">Recordar Contraseña</button>
+        <button type="button" class="btn btn-reset">Restablecer</button>
+        <button type="submit" class="btn btn-login">Ingresar</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
